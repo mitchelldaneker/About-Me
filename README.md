@@ -1,20 +1,49 @@
-Hi, I'm Mitchell Daneker, a graduate student and researcher passionate about applying machine learning, data science, and bioengineering to solve complex biological problems. My work focuses on cutting-edge areas like Genetically Encoded Voltage Indicators (GEVIs), protein engineering, and modeling and simulation in biopharmaceutical processes.
+# Hi, I'm Mitchell Daneker
 
-Here on GitHub, I share projects, code, and publications that showcase my experience in machine-learning-guided protein design, machine learning to solve ODEs/PDEs, and advanced data analytics. I'm especially interested in combining computational techniques with biological research to drive innovation in healthcare and biotechnology. Feel free to explore my work or reach out if you're interested in collaborating at mitchelldaneker@gmail.com. 
+I'm a graduate student and researcher passionate about leveraging machine learning, data science, and bioengineering to tackle complex biological challenges. My research focuses on cutting-edge areas such as **Genetically Encoded Voltage Indicators (GEVIs)**, **protein engineering**, and **modeling and simulation in biopharmaceutical processes**.
+
+On this GitHub, you'll find projects, code, and publications showcasing my experience in **machine-learning-guided protein design**, **machine learning for solving ODEs/PDEs**, and **advanced data analytics**. I'm particularly interested in combining computational techniques with biological research to drive innovation in healthcare and biotechnology.
+
+Feel free to explore my work, or contact me at mitchelldaneker@gmail.com if you're interested in collaborating!
 
 ## Papers
 
-1. [Engaging Alkenes and Alkynes in Deaminative Alkyl–Alkyl and Alkyl–Vinyl Cross-Couplings of Alkylpyridinium Salts](https://pubs.acs.org/doi/abs/10.1021/acs.orglett.9b03899): My first paper in undergrad at the University of Delaware with Dr. Mary P. Watson. I helped develop new cross-coupling reactions. 
-2. [Systems Biology: Identifiability Analysis and Parameter Identification via Systems-Biology-Informed Neural Networks](https://link.springer.com/protocol/10.1007/978-1-0716-3008-2_4): In this paper I delve into how to use physics-informed neural networks (PINNs), specifically for biological ODEs, to solve inverse problems. I also discuss treatment of ODEs to learn what parameters are structurally and practically identifiable - as well as some method to do this. The code can be found on [Github](https://github.com/lu-group/sbinn).
-3. [Effective data sampling strategies and boundary condition constraints of physics-informed neural networks for identifying material properties in solid mechanics](https://link.springer.com/article/10.1007/s10483-023-2995-8): In this paper I look into different data sampling techniques to improve PINN performance for inverse problems via solid mechanics models. The code can be found on [Github](https://github.com/lu-group/pinn-material-identication).
-4. [Transfer learning on physics-informed neural networks for tracking the hemodynamics in the evolving false lumen of dissected aorta](https://www.cell.com/nexus/fulltext/S2950-1601(24)00014-7): In this paper I use PINN to resolve the hemodynamic domain of an aneurysm with MRI data and the aneurysm boundary. Note that these results are with an ill-defined system, so they would be traditionally very difficult to solve. I also introduce a transfer learning tehcnique that reduces runtime significantly and does so even for different boundaries, time spans, and MRI resolutions. The code can be found on [Github](https://github.com/lu-group/pinn-thrombus-mri).
-5. [Identifying heterogeneous micromechanical properties of biological tissues via physics-informed neural networks](https://pmc.ncbi.nlm.nih.gov/articles/PMC11092874/): In this paper we use PINN to solve the inverse problem learning parameter fields of in realistic 2D tissues. Different architectures are explored and compared to traditional and machine learning data driven techniques. Traditional methods often require many examples, while only 1 is required with PINN, and much better performance than other machine learning techniques. The code can be found on [Github](https://github.com/lu-group/pinn-heterogeneous-material).
-6. [ADEPT: A Noninvasive Method for Determining Elastic Properties of Valve Tissue](https://arxiv.org/abs/2409.19081): This paper builds on other work with PINN and determining material properties in biological systems to use real data. The method called ADEPT is used to take 3D transesophageal (TEE) images of a regurgitant tricuspid valve and determine material properties in this valve for a specific patient. This work develops non-invasive patient specific predictions that can be used for modeling surgeries and better understanding of tissues.  The code can be found on [Github](https://github.com/lu-group/adept) once published, but is currently under revision so is not available.
-7. [Physics-informed and black-box Identification of robotic actuator with a flexible joint](https://www.sciencedirect.com/science/article/pii/S2405896324013181): This paper uses PINN to infer parameters of friction models and compare the results to other data driven black-box models. As a grey-box method, PINN outperforms other black-box methods.
+1. **[Engaging Alkenes and Alkynes in Deaminative Alkyl–Alkyl and Alkyl–Vinyl Cross-Couplings of Alkylpyridinium Salts](https://pubs.acs.org/doi/abs/10.1021/acs.orglett.9b03899)**  
+   My first paper during undergrad at the University of Delaware with Dr. Mary P. Watson. I contributed to developing new cross-coupling reactions.
+
+2. **[Systems Biology: Identifiability Analysis and Parameter Identification via Systems-Biology-Informed Neural Networks](https://link.springer.com/protocol/10.1007/978-1-0716-3008-2_4)**  
+   Explores how physics-informed neural networks (PINNs) can solve inverse problems for biological ODEs. The paper also addresses structural and practical identifiability of parameters.  
+   [GitHub Code](https://github.com/lu-group/sbinn)
+
+3. **[Effective Data Sampling Strategies and Boundary Condition Constraints of Physics-Informed Neural Networks for Identifying Material Properties in Solid Mechanics](https://link.springer.com/article/10.1007/s10483-023-2995-8)**  
+   Investigates how various data sampling techniques can enhance PINN performance in inverse problems related to solid mechanics.  
+   [GitHub Code](https://github.com/lu-group/pinn-material-identification)
+
+4. **[Transfer Learning on Physics-Informed Neural Networks for Tracking Hemodynamics in the Evolving False Lumen of Dissected Aorta](https://www.cell.com/nexus/fulltext/S2950-1601(24)00014-7)**  
+   Uses PINN and MRI data to resolve the hemodynamic domain in aneurysms and introduces a transfer learning technique that reduces runtime across varied boundaries and resolutions.  
+   [GitHub Code](https://github.com/lu-group/pinn-thrombus-mri)
+
+5. **[Identifying Heterogeneous Micromechanical Properties of Biological Tissues via Physics-Informed Neural Networks](https://pmc.ncbi.nlm.nih.gov/articles/PMC11092874/)**  
+   Solves inverse problems to learn parameter fields in realistic 2D tissues using PINN, outperforming other machine learning techniques.  
+   [GitHub Code](https://github.com/lu-group/pinn-heterogeneous-material)
+
+6. **[ADEPT: A Noninvasive Method for Determining Elastic Properties of Valve Tissue](https://arxiv.org/abs/2409.19081)**  
+   Introduces ADEPT, a method using 3D transesophageal (TEE) imaging to predict patient-specific material properties of the tricuspid valve for better surgical modeling.  
+   [GitHub Code (Under Revision)](https://github.com/lu-group/adept)
+
+7. **[Physics-Informed and Black-Box Identification of Robotic Actuator with a Flexible Joint](https://www.sciencedirect.com/science/article/pii/S2405896324013181)**  
+   Applies PINN to infer friction models in robotic actuators, comparing results to traditional black-box approaches.
 
 ## Current Work
 
-1. SBINN Continuation: I am working with researchers at John's Hopkins to solve inverse problems for large cell models, developing new methods to deal with low data availability and large-scale systems.
-2. DeepONet Uncertainty Quantification: Deep operator networks have great capacity to act as surrogate models and map function spaces. A current issue is providing uncertainty bounds. Current work focuses on developing UQ for DeepONets and using these results for active learning.
-3. DeepONet Surrogate Models: Some biological models require both spatial and temporal information. I am developing DeepONets to take in a limited set of parameters and create a simplified surrogate that is temporal only, potentially utilizing UQ.
-4. Genetically Encoded Voltage Indicators: GEVIs are vital to the study of the brain, but are difficult to optimize for the best conditions. We are using machine learning to help with this optimization via active learning. 
+1. **SBINN Continuation:**  
+   Collaborating with researchers at Johns Hopkins to solve inverse problems for large scale cell models, focusing on methods for low-data scenarios.
+
+2. **DeepONet Uncertainty Quantification (UQ):**  
+   Developing UQ methods for Deep Operator Networks, enhancing their potential for active learning in biological systems.
+
+3. **DeepONet Surrogate Models:**  
+   Creating surrogate models for spatiotemporal biological systems, simplifying complex models to temporal-only formats with UQ integration.
+
+4. **Genetically Encoded Voltage Indicators (GEVIs):**  
+   Applying machine learning to optimize GEVIs for brain studies through active learning techniques, aiming to improve experimental conditions.
