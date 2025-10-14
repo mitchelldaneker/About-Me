@@ -1,10 +1,18 @@
 # Hi, I'm Mitchell Daneker
 
-I'm a graduate student and researcher passionate about leveraging machine learning, data science, and bioengineering to tackle complex biological challenges. My research focuses on cutting-edge areas such as **Genetically Encoded Voltage Indicators (GEVIs)**, **protein engineering**, and **modeling and simulation in biopharmaceutical processes**.
+I'm a PhD candidate in Chemical Engineering at the University of Pennsylvania, specializing in machine learning for scientific computing, simulation, and biological systems. My work spans **physics-informed neural networks (PINNs)**, **Deep Operator Networks (DeepONets)**, **protein engineering**, **computational biology**, and **LLM training**, with a focus on deploying ML models in real-world, high-impact domains.
 
-On this GitHub, you'll find projects, code, and publications showcasing my experience in **machine-learning-guided protein design**, **machine learning for solving ODEs/PDEs**, and **advanced data analytics**. I'm particularly interested in combining computational techniques with biological research to drive innovation in healthcare and biotechnology.
+This GitHub contains select code, publications, and ongoing projects in:
+- **ML-guided protein design**
+- **Surrogate modeling for PDEs/ODEs**
+- **Uncertainty quantification (UQ)**
+- **Generative AI and LLM training**
+- **Real-time ML deployment in simulation frameworks**
 
-Feel free to explore my work, or contact me at mitchelldaneker@gmail.com if you're interested in collaborating!
+Due to the proprietary nature of some projects, not all work is publicly available. However, I’ve included links to published papers and open-source contributions where possible.
+
+Feel free to reach out at **mitchelldaneker@gmail.com** for collaboration or questions.
+
 
 ## Papers
 
@@ -34,16 +42,32 @@ Feel free to explore my work, or contact me at mitchelldaneker@gmail.com if you'
 7. **[Physics-Informed and Black-Box Identification of Robotic Actuator with a Flexible Joint](https://www.sciencedirect.com/science/article/pii/S2405896324013181)**  
    Applies PINN to infer friction models in robotic actuators, comparing results to traditional black-box approaches.
 
-## Current Work
+## Current Projects
 
-1. **SBINN Continuation:**  
+1. **DeepONet Integration at FM**  
+  Developed and deployed a custom Deep Operator Network (DeepONet) framework into FireFOAM’s radiation solver, achieving over **44x speedup** in CFD inference. This work demonstrates real-time ML deployment in high-fidelity simulation environments and serves as a benchmark for surrogate modeling in industrial fire safety applications.
+
+2. **SBINN Continuation:**  
    Collaborating with researchers at Johns Hopkins to solve inverse problems for large scale cell models, focusing on methods for low-data scenarios.
 
-2. **DeepONet Uncertainty Quantification (UQ):**  
+3. **DeepONet Uncertainty Quantification (UQ):**  
    Developing UQ methods for Deep Operator Networks, enhancing their potential for active learning in biological systems.
 
-3. **DeepONet Surrogate Models:**  
+4. **DeepONet Surrogate Models:**  
    Creating surrogate models for spatiotemporal biological systems, simplifying complex models to temporal-only formats with UQ integration.
 
-4. **Genetically Encoded Voltage Indicators (GEVIs):**  
+5. **Genetically Encoded Voltage Indicators (GEVIs):**  
    Applying machine learning to optimize GEVIs for brain studies through active learning techniques, aiming to improve experimental conditions.
+---
+
+## Retired Project
+
+1. **LLM Training**  
+  Contributed to supervised fine-tuning and RLHF workflows for large language models through freelance opportunities. Evaluated model outputs for alignment, safety, and performance across diverse domains, supporting the development of robust generative AI systems.
+1. **Reinforcement Learning Betting Model**  
+  Built a reinforcement learning model using login site data and web scraping to simulate betting decisions: selecting when to bet, what to bet on, and how much. The model achieved an ROI of 0.98, serving as a learning tool for reinforcement learning fundamentals and decision-making under uncertainty.
+
+
+
+
+Thanks for visiting!
