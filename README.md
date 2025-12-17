@@ -35,7 +35,7 @@ Feel free to reach out at **mitchelldaneker@gmail.com** for collaboration or que
    Solves inverse problems to learn parameter fields in realistic 2D tissues using PINN, outperforming other machine learning techniques.  
    [GitHub Code](https://github.com/lu-group/pinn-heterogeneous-material)
 
-6. **[ADEPT: A Noninvasive Method for Determining Elastic Properties of Valve Tissue](https://arxiv.org/abs/2409.19081)**  
+6. **[ADEPT: A Noninvasive Method for Determining Elastic Properties of Valve Tissue](https://pmc.ncbi.nlm.nih.gov/articles/PMC11092874/)**  
    Introduces ADEPT, a method using 3D transesophageal (TEE) imaging to predict patient-specific material properties of the tricuspid valve for better surgical modeling.  
    [GitHub Code (Under Revision)](https://github.com/lu-group/adept)
 
