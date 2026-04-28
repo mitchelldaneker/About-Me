@@ -121,6 +121,7 @@ Developed a general framework that uses PINN‑style constraints for inverse pro
 6. Wensi Wu, **Mitchell Daneker**, Kevin T. Turner, Matthew A. Jolley, and Lu Lu. Identifying Heterogeneous Micromechanical Properties of Biological Tissues via PINNs. *Small Methods*, 2024. [Paper](https://onlinelibrary.wiley.com/doi/10.1002/smtd.202400620) · [Code](https://github.com/lu-group/pinn-heterogeneous-material)
 7. Wensi Wu, **Mitchell Daneker**, Christian Herz, Hannah Dewey, Jeffrey A. Weiss, Alison M. Pouch, Lu Lu, and Matthew A. Jolley. noninvasive method for determining elastic parameters of valve tissue using PINNs. *Acta Biomaterialia*, 2025. [Paper](https://www.sciencedirect.com/science/article/pii/S1742706125003472?via%3Dihub) · [Code](https://github.com/lu-group/adept)
 8. Nick Winovich†, **Mitchell Daneker†** , Lu Lu, and Guang Lin. Active operator learning with predictive uncertainty quantification for PDEs. *Journal of Computational Physics*, 2026. [Paper](https://www.sciencedirect.com/science/article/pii/S0021999126001415)
+9.  Xiaoyi Lu, **Mitchell Daneker**, Lu Lu, and Yi Wang. Machine learning accelerated radiative transfer modeling in CFD fire simulations. *Fire Safety Journal*, 2026. [Paper](https://www.sciencedirect.com/science/article/pii/S0379711226001876)
 
 † These authors contributed equally to this work.
 
