@@ -113,15 +113,16 @@ Developed a general framework that uses PINN‑style constraints for inverse pro
 ---
 
 ## Publications (chronological)
-1. **Engaging Alkenes and Alkynes in Deaminative Alkyl–Alkyl and Alkyl–Vinyl Cross‑Couplings of Alkylpyridinium Salts.** *Org. Lett.* (2019). [Paper](https://pubs.acs.org/doi/abs/10.1021/acs.orglett.9b03899)
-2. **Systems Biology: Identifiability Analysis and Parameter Identification via SBINN.** *Methods in Molecular Biology* (2023). [Paper](https://link.springer.com/protocol/10.1007/978-1-0716-3008-2_4) · [Code](https://github.com/lu-group/sbinn)
-3. **Effective Data Sampling Strategies and Boundary Condition Constraints of PINNs for Identifying Material Properties in Solid Mechanics.** (2023). [Paper](https://link.springer.com/article/10.1007/s10483-023-2995-8) · [Code](https://github.com/lu-group/pinn-material-identification)
-4. **Physics‑Informed and Black‑Box Identification of Robotic Actuator with a Flexible Joint.** *(IFAC‑PapersOnLine, 2024).* [Paper](https://www.sciencedirect.com/science/article/pii/S2405896324013181)
-5. **Transfer learning on PINNs for tracking hemodynamics in the evolving false lumen of dissected aorta.** *Nexus* (2024). [Paper](https://www.cell.com/nexus/fulltext/S2950-1601(24)00014-7) · [Code](https://github.com/lu-group/pinn-thrombus-mri)
-6. **Identifying Heterogeneous Micromechanical Properties of Biological Tissues via PINNs.** *Small Methods* (2024). [Paper](https://onlinelibrary.wiley.com/doi/10.1002/smtd.202400620) · [Code](https://github.com/lu-group/pinn-heterogeneous-material)
-7. **A noninvasive method for determining elastic parameters of valve tissue using PINNs.** *Acta Biomaterialia* (2025). [Paper](https://www.sciencedirect.com/science/article/pii/S1742706125003472?via%3Dihub) · [Code](https://github.com/lu-group/adept)
-8. **Active operator learning with predictive uncertainty quantification for PDEs.** *Journal of Computational Physics* (2026). [Paper](https://www.sciencedirect.com/science/article/pii/S0021999126001415)
+1. Kristen M. Baker, Diana Lucas Baca, Shane Plunkett, **Mitchell E. Daneker**, and Mary P. Watson. Engaging Alkenes and Alkynes in Deaminative Alkyl–Alkyl and Alkyl–Vinyl Cross‑Couplings of Alkylpyridinium Salts. *Org. Lett.*, 2019. [Paper](https://pubs.acs.org/doi/abs/10.1021/acs.orglett.9b03899)
+2. **Mitchell Daneker**, Zhen Zhang, George Em Karniadakis and Lu Lu. Systems Biology: Identifiability Analysis and Parameter Identification via SBINN. *Methods in Molecular Biology*, 2023. [Paper](https://link.springer.com/protocol/10.1007/978-1-0716-3008-2_4) · [Code](https://github.com/lu-group/sbinn)
+3. Wensi Wu, **Mitchell Daneker**, Matthew A. Jolley, Kevin T. Turner, and Lu Lu. Effective Data Sampling Strategies and Boundary Condition Constraints of PINNs for Identifying Material Properties in Solid Mechanics. *Applied Mathematics and Mechanics*, 2023. [Paper](https://link.springer.com/article/10.1007/s10483-023-2995-8) · [Code](https://github.com/lu-group/pinn-material-identification)
+4. Antonio Weiller Corrêa do Lago, Daniel Henrique Braz de Sousa, Pedro Henrique Domingues, **Mitchell Daneker**, and Lu Lu. Physics‑Informed and Black‑Box Identification of Robotic Actuator with a Flexible Joint. *IFAC‑PapersOnLine*, 2024. [Paper](https://www.sciencedirect.com/science/article/pii/S2405896324013181)
+5. **Mitchell Daneker†**, Shengze Cai†, Ying Qian, Eric Myzelev, Arsh Kumbhat, He Li, and Lu Lu. Transfer learning on PINNs for tracking hemodynamics in the evolving false lumen of dissected aorta. *Nexus*, 2024. [Paper](https://www.cell.com/nexus/fulltext/S2950-1601(24)00014-7) · [Code](https://github.com/lu-group/pinn-thrombus-mri) · [**Cover Article**](https://www.cell.com/nexus/issue?pii=S2950-1601(24)X0003-0#)
+6. Wensi Wu, **Mitchell Daneker**, Kevin T. Turner, Matthew A. Jolley, and Lu Lu. Identifying Heterogeneous Micromechanical Properties of Biological Tissues via PINNs. *Small Methods*, 2024. [Paper](https://onlinelibrary.wiley.com/doi/10.1002/smtd.202400620) · [Code](https://github.com/lu-group/pinn-heterogeneous-material)
+7. Wensi Wu, **Mitchell Daneker**, Christian Herz, Hannah Dewey, Jeffrey A. Weiss, Alison M. Pouch, Lu Lu, and Matthew A. Jolley. noninvasive method for determining elastic parameters of valve tissue using PINNs. *Acta Biomaterialia*, 2025. [Paper](https://www.sciencedirect.com/science/article/pii/S1742706125003472?via%3Dihub) · [Code](https://github.com/lu-group/adept)
+8. Nick Winovich†, **Mitchell Daneker†** , Lu Lu, and Guang Lin. Active operator learning with predictive uncertainty quantification for PDEs. *Journal of Computational Physics*, 2026. [Paper](https://www.sciencedirect.com/science/article/pii/S0021999126001415)
 
+† These authors contributed equally to this work.
 ---
 
 ### Notes for hiring managers / collaborators
