@@ -123,6 +123,7 @@ Developed a general framework that uses PINN‑style constraints for inverse pro
 8. Nick Winovich†, **Mitchell Daneker†** , Lu Lu, and Guang Lin. Active operator learning with predictive uncertainty quantification for PDEs. *Journal of Computational Physics*, 2026. [Paper](https://www.sciencedirect.com/science/article/pii/S0021999126001415)
 
 † These authors contributed equally to this work.
+
 ---
 
 ### Notes for hiring managers / collaborators
