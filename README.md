@@ -1,8 +1,9 @@
-# Mitchell Daneker: ML for Scientific Computing, Simulation, & Biology
+# Mitchell Daneker: Scientific Machine Learning for Simulation, Biology, and Engineering
 
-PhD candidate in Chemical & Biomolecular Engineering (University of Pennsylvania). I build **physics-informed** and **operator-learning** ML systems that interface with **real simulators** and **biological/biomedical data**. My work spans patient-specific valve mechanics to CFD radiation solvers to protein design and focuses on methods that are **deployable**, **data-efficient**, and **trustworthy**.
+PhD in Chemical and Biomolecular Engineering from the University of Pennsylvania (2026) and currently a Senior Scientist at Merck in DDT Digital Insights. I build **physics-informed** and **operator-learning** ML systems that interface with **real simulators** and **biological/biomedical data**. My work spans patient-specific valve mechanics, CFD radiation solvers, and protein or bio-systems modeling, with a focus on methods that are **deployable**, **data-efficient**, and **trustworthy**.
 
-**mitchelldaneker@gmail.com**
+**Contact:** mitchelldaneker@gmail.com  
+> This README focuses on public research, publications, and open-source work.
 
 ---
 
@@ -10,7 +11,8 @@ PhD candidate in Chemical & Biomolecular Engineering (University of Pennsylvania
 - **Core specialties:** Physics-Informed Neural Networks (PINNs), Deep Operator Networks (DeepONet), inverse problems, PDE/ODE surrogate modeling, transfer learning, and uncertainty-aware workflows.
 - **Domains:** Biomechanics & medical imaging, CFD & fire science, systems biology, protein engineering, and robotics.
 - **Tooling:** PyTorch, NumPy/SciPy, JAX (light), ONNX, CUDA basics; C++ interop; OpenFOAM/FireFOAM integration; Python packaging; experiment tracking; GitHub Actions.
-- **Outcomes:** 44× and up speedups for simulation pipelines, patient-specific material property estimation from noninvasive imaging, and robust inverse modeling frameworks with automatic validation and optimization.
+- **Outcomes:** 44×+ speedups for simulation pipelines, patient-specific material property estimation from noninvasive imaging, and robust inverse-modeling frameworks with automated validation and optimization.
+
 
 > **Figures shown below are from published work only.** Unpublished project figures are intentionally omitted until cleared for sharing.
 
@@ -95,11 +97,11 @@ Developed a general framework that uses PINN‑style constraints for inverse pro
 
 ---
 
-## Current projects
-- **DeepONet integration in FireFOAM’s radiation solver**:: extended to 3D problems; achieved ~44× speedups for CFD inference and demonstrated real‑time deployment within an industrial solver.  
-- **SBINN continuation:** pushing to large‑scale cell models and low‑data regimes; benchmarking against swarm optimization and differentiable physics approaches.
-- **DeepONet surrogate models for spatiotemporal bio‑systems:** simplifying PDE systems to temporal‑only surrogates with downstream UQ hooks.
-- **Genetically Encoded Voltage Indicators (GEVIs):** ML‑driven framework designed for experimentalists.
+## Recent and ongoing work
+- **DeepONet integration in FireFOAM’s radiation solver:** extended to 3D problems, achieved ~44× speedups for CFD inference, and demonstrated real-time deployment within an industrial solver.
+- **SBINN and inverse modeling workflows:** extending to larger-scale cell models and low-data regimes, with benchmarking against swarm optimization and differentiable-physics approaches.
+- **DeepONet surrogate models for spatiotemporal bio-systems:** reducing PDE systems to efficient temporal-only surrogates with uncertainty quantification hooks.
+- **Genetically Encoded Voltage Indicators (GEVIs):** ML-driven modeling framework oriented toward practical use by experimentalists.
 
 ---
 
@@ -119,7 +121,7 @@ Developed a general framework that uses PINN‑style constraints for inverse pro
 4. Antonio Weiller Corrêa do Lago, Daniel Henrique Braz de Sousa, Pedro Henrique Domingues, **Mitchell Daneker**, and Lu Lu. Physics‑Informed and Black‑Box Identification of Robotic Actuator with a Flexible Joint. *IFAC‑PapersOnLine*, 2024. [Paper](https://www.sciencedirect.com/science/article/pii/S2405896324013181)
 5. **Mitchell Daneker†**, Shengze Cai†, Ying Qian, Eric Myzelev, Arsh Kumbhat, He Li, and Lu Lu. Transfer learning on PINNs for tracking hemodynamics in the evolving false lumen of dissected aorta. *Nexus*, 2024. [Paper](https://www.cell.com/nexus/fulltext/S2950-1601(24)00014-7) · [Code](https://github.com/lu-group/pinn-thrombus-mri) · [**Cover Article**](https://www.cell.com/nexus/issue?pii=S2950-1601(24)X0003-0#)
 6. Wensi Wu, **Mitchell Daneker**, Kevin T. Turner, Matthew A. Jolley, and Lu Lu. Identifying Heterogeneous Micromechanical Properties of Biological Tissues via PINNs. *Small Methods*, 2024. [Paper](https://onlinelibrary.wiley.com/doi/10.1002/smtd.202400620) · [Code](https://github.com/lu-group/pinn-heterogeneous-material)
-7. Wensi Wu, **Mitchell Daneker**, Christian Herz, Hannah Dewey, Jeffrey A. Weiss, Alison M. Pouch, Lu Lu, and Matthew A. Jolley. noninvasive method for determining elastic parameters of valve tissue using PINNs. *Acta Biomaterialia*, 2025. [Paper](https://www.sciencedirect.com/science/article/pii/S1742706125003472?via%3Dihub) · [Code](https://github.com/lu-group/adept)
+7. Wensi Wu, **Mitchell Daneker**, Christian Herz, Hannah Dewey, Jeffrey A. Weiss, Alison M. Pouch, Lu Lu, and Matthew A. Jolley. A noninvasive method for determining elastic parameters of valve tissue using PINNs. *Acta Biomaterialia*, 2025. [Paper](https://www.sciencedirect.com/science/article/pii/S1742706125003472?via%3Dihub) · [Code](https://github.com/lu-group/adept)
 8. Nick Winovich†, **Mitchell Daneker†** , Lu Lu, and Guang Lin. Active operator learning with predictive uncertainty quantification for PDEs. *Journal of Computational Physics*, 2026. [Paper](https://www.sciencedirect.com/science/article/pii/S0021999126001415)
 9.  Xiaoyi Lu, **Mitchell Daneker**, Lu Lu, and Yi Wang. Machine learning accelerated radiative transfer modeling in CFD fire simulations. *Fire Safety Journal*, 2026. [Paper](https://www.sciencedirect.com/science/article/pii/S0379711226001876)
 
@@ -127,7 +129,8 @@ Developed a general framework that uses PINN‑style constraints for inverse pro
 
 ---
 
-### Notes for hiring managers / collaborators
-- I’m especially interested in R&D roles that combine scientific ML with simulation (CFD/FEA) and applied AI for engineering. Remote or PA‑region preferred.
-- Happy to discuss collaboration, consulting, or tech transfer of the frameworks above.
+### Notes for collaborators
+- I’m broadly interested in scientific ML, simulation-integrated AI, inverse problems, and deployable modeling workflows for science and engineering.
+- Happy to discuss research collaboration, open-source work, and technical exchange related to the frameworks above.
+
 
